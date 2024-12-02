@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "DescubraSuaCidade",
+    "slug": "DescubraSuaCidade",
+    "scheme": "DescubraSuaCidade",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "sdkVersion": "48.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.minhaempresa.DescubraSuaCidade",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f70103f0-57d8-42b8-8105-22dac6f3dbbf"
+      }
+    }
+  }
+}
